@@ -8,6 +8,8 @@
     "lint": "eslint .",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "main": "dist/propose.js",
+  "types": "dist/propose.d.ts",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/oyyblin/hardhat-safe-proposer.git"
@@ -26,6 +28,7 @@
     "@safe-global/safe-ethers-lib": "^1.9.2",
     "@safe-global/safe-service-client": "^2.0.0",
     "@typechain/hardhat": "^6.1.5",
+    "@types/mocha": "^10.0.1",
     "@types/node": "^14.14.21",
     "@types/yargs": "^15.0.10",
     "@typescript-eslint/eslint-plugin": "^5.56.0",

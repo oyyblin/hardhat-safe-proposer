@@ -26,7 +26,7 @@ const safeTransactionServiceUrls: { [chainId: number]: string } = {
   1313161554: "https://safe-transaction-aurora.safe.global",
 };
 
-export async function ProposeDeploy(
+export async function proposeDeploy(
   deployer: string,
   safeAddress: string,
   safeVersion: SafeVersion,
